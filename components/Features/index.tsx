@@ -3,6 +3,9 @@ import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
 const Features = () => {
+  let featureForTitle = "O que fazemos?";
+  let featureParagraph = "Desenvolvemos uma personalidade para sua marca. A empresa fica a frente de entregar o seu produto para o mundo";
+
   return (
     <>
       <section
@@ -11,8 +14,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title={featureForTitle}
+            paragraph={featureParagraph}
             center
           />
 
