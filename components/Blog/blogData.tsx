@@ -31,17 +31,17 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Luisa Modas - Loja de Roupas Femininas",
+    title: "Dripper - Varejo Virtual",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Empresa que atua no mercado de lojas virtuais e está na inovando com o ecommerces próprio. ",
+    image: "/images/projetos/projeto-dripper.png",
     author: {
-      name: "Lethium Deo",
+      name: "Anderson Laurentino",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Sócio da Dripper",
     },
-    tags: ["Moda"],
-    publishDate: "2025",
+    tags: ["Ecommerces"],
+    publishDate: "2023",
   },
 ];
 export default blogData;

@@ -37,7 +37,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
               </div>
               <div className="w-full">
                 <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  By {author.name}
+                  {author.name}
                 </h4>
                 <p className="text-xs text-body-color">{author.designation}</p>
               </div>
